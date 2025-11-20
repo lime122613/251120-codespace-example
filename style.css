@@ -61,3 +61,63 @@ body {
 .career-list li:hover {
   background: rgba(255, 211, 105, 0.18);
 }
+
+/* 프로필 사진 및 역할 */
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.profile-photo img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  border: 3px solid #ffd369;
+}
+.profile-role {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffd369;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.highlight {
+  color: #ffd369;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ffd36933 60%, transparent 100%);
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+/* 경력 추가 정보 및 연락처 */
+.career-extra {
+  margin-top: 32px;
+  background: rgba(255, 211, 105, 0.07);
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.career-extra h3 {
+  color: #ffd369;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+.contact-list li {
+  margin-bottom: 8px;
+}
+.contact-list a {
+  color: #ffd369;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+.contact-list a:hover {
+  text-decoration: underline;
+}
